@@ -1,63 +1,67 @@
-/* Reset default browser styles */
+/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
 }
 
-/* Body styling */
+/* Body */
 body {
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #fff7fb; /* soft pink background */
+  color: #2f3e46;
   padding: 20px;
   line-height: 1.6;
 }
 
 /* Navigation bar */
 nav {
-  background-color: #2c3e50;
-  padding: 10px;
+  background: linear-gradient(90deg, #ffc8dd, #b7e4c7);
+  padding: 12px;
   text-align: center;
   margin-bottom: 20px;
+  border-radius: 12px;
 }
 
 nav a {
-  color: white;
+  color: #4a4e69;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 12px;
   font-weight: bold;
 }
 
 nav a:hover {
+  color: #2d6a4f;
   text-decoration: underline;
-  color: #f1c40f;
 }
 
 /* Profile Image */
 img {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   display: block;
-  margin: 10px auto;
-  border: 3px solid #2c3e50;
+  margin: 15px auto;
+  border: 5px solid #ffc8dd; /* pink border */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 /* Name */
 h1 {
   text-align: center;
-  color: #2c3e50;
+  color: #2d6a4f;
   margin-bottom: 10px;
+  font-size: 28px;
 }
 
-/* Section headings */
+/* Section Headings */
 h2 {
-  background-color: #2c3e50;
-  color: white;
-  padding: 8px;
+  background: linear-gradient(90deg, #ffc8dd, #b7e4c7);
+  color: #2f3e46;
+  padding: 10px;
   margin-top: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
+  font-size: 20px;
 }
 
 /* Paragraphs */
@@ -65,32 +69,37 @@ p {
   margin: 8px 0;
 }
 
-/* Table styling */
+/* Table Styling */
 table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
   background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
 }
 
 td {
-  padding: 8px;
-  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  border-bottom: 1px solid #ffe5ec;
 }
 
-/* Skills & Achievements Lists */
+/* Lists (Skills & Achievements) */
 ul {
   margin-left: 20px;
   margin-top: 10px;
 }
 
 li {
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 
 /* Footer text */
 p:last-of-type {
-  margin-top: 20px;
+  margin-top: 25px;
   font-style: italic;
   text-align: center;
+  color: #ff8fab;
+  font-weight: bold;
 }

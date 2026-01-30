@@ -73,6 +73,7 @@ nav a:hover {
 /* ABOUT + SKILLS */
 .about-section {
   padding: 80px;
+  text-align: justify;
 }
 
 .about-top h2,
@@ -84,7 +85,7 @@ nav a:hover {
 
 .about-top p {
   font-size: 20px;
-  margin-bottom: 18px;
+  margin-bottom: 30px;
 }
 
 /* SKILLS GRID */
